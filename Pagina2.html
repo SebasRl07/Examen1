@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Sebastián Rugeles López">
+    <meta name="keywords" content="Resumen, Curricular">
+    <meta name="description" content="Resumen Curricular">
+    <title>Resumen Curricular - Educación</title>
+    <style>
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            max-width: 420px;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 4px; 
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/ImagenLogo.jpg" alt="ImagenLogo" class="logo">
+    </header>
+    <h1>Resumen Curricular</h1>
+    <h2>Sebastián Rugeles López</h2>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+        </ul>
+    </nav>
+    <h3>Educación</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Año</th>
+                <th>Institución</th>
+                <th>Lugar</th>
+                <th>¿Culminó?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010</td>
+                <td>Lans</td>
+                <td>Manizales</td>
+                <td>Sí</td>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Universidad de Manizales</td>
+                <td>Manizales</td>
+                <td>No</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Agregar Educación</h2>
+    <form>
+        <label for="Anio">Año</label>
+        <select id="Anio" name="año">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+        </select><br><br>
+
+        <label for="Institucion">Institución</label>
+        <input id="Institucion" name="Institucion" type="text" required="required" /><br><br>
+
+        <label for="Lugar">Lugar</label>
+        <textarea id="Lugar" name="Lugar"></textarea><br><br>
+
+        <label>¿Culminó?</label>
+        <input id="Culmino-Si" name="Culmino" type="radio" value="si" />
+        <label for="Culmino-Si">Sí</label>
+        <input id="Culmino-No" name="Culmino" type="radio" value="no" />
+        <label for="Culmino-No">No</label><br><br>
+
+        <input type="submit" name="Enviar" value="Enviar">
+    </form>
+    <h5>@Derechos Reservados</h5>
+    <ul>
+        <li><b>Email:</b>srugeles99748@umanizales.edu.co</li>
+        <li><b>Telefono:</b>3165277764</li>
+        <li><b>Dirección:</b>Cra 9c No 45 F 58 Altos de Capri</li>
+    </ul>
+</body>
+</html>
